@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -186,7 +186,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTUzZGY4" projecturn="a.cGVyc29uYWw6dWUyOTUzZGY4IzIwMTUxMTA1MTk1Njg5MDY" f3durn="urn:adsk.wipprod:dm.lineage:r42rrX4CTJe-dBMLpfvlxw" pcbguid="9fc3c06e-8667-4736-b4c1-f5aa6d2c2f22" lastpulledtime="" lastsyncedchangeguid="eecbb571-862d-a559-6f1a-b8b9118bf53e"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTUzZGY4" projecturn="a.cGVyc29uYWw6dWUyOTUzZGY4IzIwMTUxMTA1MTk1Njg5MDY" f3durn="urn:adsk.wipprod:dm.lineage:r42rrX4CTJe-dBMLpfvlxw" pcbguid="9fc3c06e-8667-4736-b4c1-f5aa6d2c2f22" lastpulledtime="" lastsyncedchangeguid="eecbb571-862d-a559-6f1a-b8b9118bf53e" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="false"/>
 <plain>
 <wire x1="58.427396875" y1="36.834884375" x2="58.42" y2="32.97730625" width="0.254" layer="25"/>
 <wire x1="58.42" y1="32.97730625" x2="45.72" y2="32.97730625" width="0.254" layer="25"/>
@@ -212,9 +212,9 @@
 <text x="17.133709375" y="45.665846875" size="0.8128" layer="25">echo</text>
 <text x="17.47350625" y="47.932159375" size="0.8128" layer="25">trig</text>
 <text x="17.41248125" y="50.46386875" size="0.8128" layer="25">+5</text>
-<text x="56.888059375" y="32.51020625" size="0.8128" layer="25" rot="R270">GND</text>
-<text x="49.381953125" y="32.4296375" size="0.8128" layer="25" rot="R270">DIN</text>
-<text x="51.85885" y="32.77213125" size="0.8128" layer="25" rot="R270">CLK</text>
+<text x="49.268059375" y="32.51020625" size="0.8128" layer="25" rot="R270">GND</text>
+<text x="51.921953125" y="32.4296375" size="0.8128" layer="25" rot="R270">DIN</text>
+<text x="56.93885" y="32.77213125" size="0.8128" layer="25" rot="R270">CLK</text>
 <text x="54.380946875" y="32.353725" size="0.8128" layer="25" rot="R270">CS</text>
 <text x="46.71358125" y="32.267334375" size="0.8128" layer="25" rot="R270">+5</text>
 <text x="42.545" y="36.195" size="1.016" layer="25" rot="R270">MATRIX</text>
@@ -1388,8 +1388,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="D1" library="Seeed-Diode" package="DO-214AA" value="28V-5A" x="15.441475" y="20.383975" smashed="yes">
 <attribute name="MPN" value="SS54B" x="15.441475" y="20.383975" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.711475" y="20.383975" size="0.5" layer="33" ratio="10" rot="R180"/>
 <attribute name="NAME" x="13.282475" y="22.415975" size="0.889" layer="25" ratio="11"/>
+<attribute name="NAME" x="16.711475" y="20.383975" size="0.5" layer="33" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="13.790475" y="17.589975" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="U4" library="TPD4S012" package="DRY6" value="TPD4S012DRYR" x="24.223878125" y="30.57585625" smashed="yes" rot="R90">
@@ -1409,8 +1409,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="J1" library="OPL_Connector" library_urn="urn:adsk.eagle:library:8004395" package="DCJ3P-14.2X11.0X9.0MM" package3d_urn="urn:adsk.eagle:package:8004506/1" value="DC-005" x="19.19495" y="10.177496875" smashed="yes">
 <attribute name="MPN" value="DC-005" x="19.19495" y="10.177496875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.19495" y="9.542496875" size="0.254" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="9.66995" y="13.987496875" size="0.889" layer="25" ratio="11"/>
+<attribute name="NAME" x="19.19495" y="9.542496875" size="0.254" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="9.66995" y="9.542496875" size="0.889" layer="27" ratio="11"/>
 </element>
 <element name="Q3" library="Seeed-Transistor" package="SOT-23" value="CJ2302" x="14.17624375" y="37.346621875" smashed="yes">
