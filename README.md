@@ -1,5 +1,5 @@
 # OttoDIYESPShield
-ESP32 hardware design for OttoDIY
+ESP32 hardware designs for OttoDIY
 
 NOTICE: This work has not been tested and verified yet ...
 
