@@ -2884,7 +2884,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="R2" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-20K-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="22K"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-10K-1%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="10K"/>
-<part name="C4" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
+<part name="C4" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="22uf"/>
 <part name="C5" library="Seeed-Capacitor" deviceset="CERAMIC-22UF-6.3V-20%-X5R(0805)" device="" value="22uf"/>
 <part name="C6" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -3030,11 +3030,11 @@ is just a ESD protection.</text>
 <attribute name="VALUE" x="-119.38" y="115.57" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
 <instance part="C5" gate="G$1" x="-5.08" y="140.97" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-8.001" y="139.446" size="1.778" layer="95" rot="MR270"/>
+<attribute name="NAME" x="-1.143" y="143.256" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-2.921" y="139.446" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="C6" gate="G$1" x="-11.43" y="140.97" smashed="yes" rot="R270">
-<attribute name="NAME" x="-10.16" y="144.78" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="NAME" x="-9.906" y="142.24" size="1.27" layer="95" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="-13.97" y="144.78" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
 <instance part="GND7" gate="1" x="-116.84" y="101.6" smashed="yes">

@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -1322,7 +1322,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="52.454740625" y="33.331028125" size="0.3556" layer="27" ratio="11" rot="R180"/>
 <attribute name="VALUE" value="10K" x="51.9609125" y="35.263975" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C4" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0805" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf" x="58.550671875" y="30.856346875" smashed="yes" rot="R90">
+<element name="C4" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0805" package3d_urn="urn:adsk.eagle:package:8004286/1" value="22uf" x="58.550671875" y="30.856346875" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0805KRX7R9BB104" x="58.550671875" y="30.856346875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="56.551346875" y="30.03040625" size="0.3556" layer="25" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="57.9991375" y="29.4338" size="0.3556" layer="27" ratio="11"/>
@@ -1422,8 +1422,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="J1" library="OPL_Connector" library_urn="urn:adsk.eagle:library:8004395" package="DCJ3P-14.2X11.0X9.0MM" package3d_urn="urn:adsk.eagle:package:8004506/1" value="DC-005" x="22.877496875" y="44.30505" smashed="yes" rot="R270">
 <attribute name="MPN" value="DC-005" x="22.877496875" y="44.30505" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.280165625" y="50.577425" size="0.889" layer="25" ratio="11"/>
 <attribute name="NAME" x="22.242496875" y="44.30505" size="0.254" layer="33" ratio="10"/>
+<attribute name="NAME" x="16.280165625" y="50.577425" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="22.242496875" y="53.83005" size="0.889" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="Q3" library="SamacSys_Parts" package="SOT95P230X110-3N" value="CJ2302" x="32.718384375" y="3.431275" smashed="yes" rot="R180">
