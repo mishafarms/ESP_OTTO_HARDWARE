@@ -325,7 +325,7 @@ module brain_holes(brain_type=brain_type,
     translate([0,back])
     {
         /* offset from hole 1 x */
-        pwr_offset =  esp32_holes[2][0] + 8;
+        pwr_offset =  esp32_holes[2][0] + 8.5;
         usb_offset = esp32_holes[2][0] + 26.63;
         hoffset = head_thickness+3+1.60; /* 
         /*translate([-pwr_offset,-4,hoffset+7]) rotate([-90,0]) cylinder(d=8,h=4,$fn=24);*/
@@ -422,15 +422,15 @@ module usb_mini() {
 
 module usb_micro() {
     width = 8.2;
-    height = 3.0;
-    translate([-width/2,0,0]) cube([width,3.5,height]);
-    translate([-(width+3)/2,.75,-height+3/2]) cube([width+3,3.5,height+3]);
+    height = 3.5;
+    translate([-width/2,0,-.25]) cube([width,3.5,height]);
+    translate([-(width+3)/2,.75,(-height+.25)/2]) cube([width+3,3.5,height+2.5]);
 }
 
 module pwr_hole() {
-    width = 9.8;
-    height = 11;
-    translate([-width/2,0,0]) cube([width, 3.5, height]);
+    width = 10;
+    height = 11.5;
+    translate([-width/2,0,-.25]) cube([width, 3.5, height]);
 }
 
 module box_chamfer3(dims,ch=1,bot=1)
